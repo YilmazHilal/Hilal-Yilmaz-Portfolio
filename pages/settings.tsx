@@ -1,10 +1,17 @@
 import ThemeInfo from '@/components/ThemeInfo';
+import LanguageInfo from '@/components/LanguageInfo';
 
 import styles from '@/styles/SettingsPage.module.css';
 
 const SettingsPage = () => {
   return (
     <div className={styles.layout}>
+      <h2 style={{ marginBottom: '1rem' }}>Language / Dil</h2>
+      <div className={styles.container}>
+        <LanguageInfo />
+      </div>
+
+      <h2 style={{ marginBottom: '1rem', marginTop: '2rem' }}>Themes</h2>
       <div className={styles.container}>
         <ThemeInfo
           name="GitHub Dark"

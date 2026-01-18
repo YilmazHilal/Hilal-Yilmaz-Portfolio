@@ -1,15 +1,16 @@
 import ProjectCard from '@/components/ProjectCard';
 import { projects } from '@/data/projects';
-
 import styles from '@/styles/ProjectsPage.module.css';
+import { useLanguage } from '@/context/LanguageContext';
 
 const ProjectsPage = () => {
+  const { t } = useLanguage();
+
   return (
     <div className={styles.layout}>
-      <h1 className={styles.pageTitle}>My Projects</h1>
+      <h1 className={styles.pageTitle}>{t.projects.title}</h1>
       <p className={styles.pageSubtitle}>
-        Here&apos;s a collection of my recent work. These projects showcase my
-        skills in web development, design, and problem-solving.
+        {t.projects.subtitle}
       </p>
 
       <div className={styles.container}>

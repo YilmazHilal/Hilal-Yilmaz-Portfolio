@@ -1,13 +1,15 @@
 import ContactCode from '@/components/ContactCode';
-
 import styles from '@/styles/ContactPage.module.css';
+import { useLanguage } from '@/context/LanguageContext';
 
 const ContactPage = () => {
+  const { t } = useLanguage();
+
   return (
     <div className={styles.layout}>
-      <h1 className={styles.pageTitle}>Contact Me</h1>
+      <h1 className={styles.pageTitle}>{t.contact.title}</h1>
       <p className={styles.pageSubtitle}>
-        I&apos;m always happy to connect with people who share a passion for technology, design, and innovation. Whether you&apos;d like to collaborate on a project, discuss new ideas, or simply chat about web development and AI, feel free to reach out. Building meaningful connections has always been a core part of my journey, and I look forward to hearing from you.
+        {t.contact.subtitle}
       </p>
       <div className={styles.container}>
         <div className={styles.contactContainer}>

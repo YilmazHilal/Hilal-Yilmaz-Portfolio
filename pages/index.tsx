@@ -3,8 +3,10 @@ import Link from 'next/link';
 import { VscArrowRight, VscCloudDownload } from 'react-icons/vsc';
 
 import styles from '@/styles/HomePage.module.css';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function HomePage() {
+  const { t } = useLanguage();
   const [activeLineIndex, setActiveLineIndex] = useState(0);
 
   const codeLines = [
@@ -62,9 +64,8 @@ export default function HomePage() {
                 {codeLines.map((_, index) => (
                   <div
                     key={index}
-                    className={`${styles.lineNumber} ${
-                      index === activeLineIndex ? styles.activeLine : ''
-                    }`}
+                    className={`${styles.lineNumber} ${index === activeLineIndex ? styles.activeLine : ''
+                      }`}
                   >
                     {index + 1}
                   </div>
@@ -75,9 +76,8 @@ export default function HomePage() {
                 {codeLines.map((line, index) => (
                   <div
                     key={index}
-                    className={`${styles.codeLine} ${styles[line.type]} ${
-                      index === activeLineIndex ? styles.highlightedLine : ''
-                    }`}
+                    className={`${styles.codeLine} ${styles[line.type]} ${index === activeLineIndex ? styles.highlightedLine : ''
+                      }`}
                   >
                     {line.code}
                   </div>
@@ -94,11 +94,10 @@ export default function HomePage() {
             Hilal <span className={styles.accentText}>Yılmaz</span>
           </h1>
 
-          <div className={styles.developerRole}>Industrial Engineer</div>
+          <div className={styles.developerRole}>{t.home.role}</div>
 
           <p className={styles.bio}>
-            I create smart, responsive web applications and AI integrations. With a strong background in engineering
-            and technology, I turn ideas into scalable digital products that are fast, elegant, and user-focused.
+            {t.home.bio}
           </p>
 
           <div className={styles.actionLinks}>
