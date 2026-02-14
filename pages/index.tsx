@@ -6,8 +6,18 @@ import styles from '@/styles/HomePage.module.css';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function HomePage() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [activeLineIndex, setActiveLineIndex] = useState(0);
+
+  const cvFile =
+    language === 'tr'
+      ? '/CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf'
+      : '/CV_Hilal-Yılmaz_IndustrialEngineer.pdf';
+
+  const cvDownloadName =
+    language === 'tr'
+      ? 'CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf'
+      : 'CV_Hilal-Yılmaz_IndustrialEngineer.pdf';
 
   const codeLines = [
     { code: 'const HomePage = () => {', type: 'function' },
@@ -104,7 +114,7 @@ export default function HomePage() {
             <Link href="/projects" className={styles.primaryLink}>
               View Projects <VscArrowRight />
             </Link>
-            <a href="/cv.pdf" download="Hilal_Yilmaz_CV.pdf" className={styles.primaryLink}>
+            <a href={cvFile} download={cvDownloadName} className={styles.primaryLink}>
               Download CV <VscCloudDownload />
             </a>
           </div>
