@@ -23,8 +23,13 @@ const contactItems = [
   },
   {
     social: 'twitter',
-    link: 'hilalyilmaz',
-    href: 'https://www.twitter.com/hilalyilmaz',
+    link: '@aksiyonalindi',
+    href: 'https://x.com/aksiyonalindi',
+  },
+  {
+    social: 'instagram',
+    link: 'hilal_yilmaz23',
+    href: 'https://www.instagram.com/hilal_yilmaz23/',
   },
   {
     social: 'medium',
