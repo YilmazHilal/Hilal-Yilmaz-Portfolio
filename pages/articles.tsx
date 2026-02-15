@@ -43,7 +43,7 @@ export async function getStaticProps() {
       'https://dev.to/api/articles/me/published?per_page=6',
       {
         headers: {
-          'api-key': process.env.DEV_TO_API_KEY || '',
+          'api-key': process.env.iFpvi23G9CJ3W8J945tczHUG || '',
         },
       }
     );
