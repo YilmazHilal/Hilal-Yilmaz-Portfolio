@@ -15,7 +15,7 @@ const ArticlesPage = ({ articles }: ArticlesPageProps) => {
       <p className={styles.pageSubtitle}>
         Recent posts from{' '}
         <a
-          href="https://dev.to/tolgagunduz"
+          href="https://dev.to/yilmazhilal"
           target="_blank"
           rel="noopener"
           className={styles.underline}
@@ -43,7 +43,7 @@ export async function getStaticProps() {
       'https://dev.to/api/articles/me/published?per_page=6',
       {
         headers: {
-          'api-key': process.env.iFpvi23G9CJ3W8J945tczHUG || '',
+          'api-key': process.env.DEV_TO_API_KEY || '',
         },
       }
     );
