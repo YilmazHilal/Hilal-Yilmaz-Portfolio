@@ -12,6 +12,8 @@ interface GithubPageProps {
   user: User;
 }
 
+const GITHUB_USERNAME = 'YilmazHilal';
+
 const GithubPage = ({ repos, user }: GithubPageProps) => {
   return (
     <div className={styles.layout}>
@@ -61,7 +63,7 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
         </div>
         <div className={styles.contributions}>
           <GitHubCalendar
-            username={process.env.YilmazHilal!}
+            username={GITHUB_USERNAME}
             hideColorLegend
             hideMonthLabels
             colorScheme="dark"
@@ -80,20 +82,48 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
 };
 
 export async function getStaticProps() {
-  const userRes = await fetch(
-    `https://api.github.com/users/${process.env.YilmazHilal}`
-  );
-  const user = await userRes.json();
+  try {
+    const userRes = await fetch(
+      `https://api.github.com/users/${GITHUB_USERNAME}`
+    );
 
-  const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.YilmazHilal}/repos?sort=pushed&per_page=6`
-  );
-  const repos = await repoRes.json();
+    if (!userRes.ok) {
+      throw new Error('Failed to fetch GitHub user data');
+    }
 
-  return {
-    props: { title: 'GitHub', repos, user },
-    revalidate: 600,
-  };
+    const user = await userRes.json();
+
+    const repoRes = await fetch(
+      `https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=pushed&per_page=6`
+    );
+
+    if (!repoRes.ok) {
+      throw new Error('Failed to fetch GitHub repositories');
+    }
+
+    const repos = await repoRes.json();
+
+    return {
+      props: { title: 'GitHub', repos, user },
+      revalidate: 600,
+    };
+  } catch (error) {
+    console.error('Error fetching GitHub data:', error);
+
+    return {
+      props: {
+        title: 'GitHub',
+        repos: [],
+        user: {
+          avatar_url: '/profile.png',
+          login: GITHUB_USERNAME,
+          public_repos: 0,
+          followers: 0,
+        },
+      },
+      revalidate: 600,
+    };
+  }
 }
 
 export default GithubPage;
