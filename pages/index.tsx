@@ -9,6 +9,7 @@ export default function HomePage() {
   const { t } = useLanguage();
   const [activeLineIndex, setActiveLineIndex] = useState(0);
 
+
   const codeLines = [
     { code: 'const HomePage = () => {', type: 'function' },
     {
@@ -104,8 +105,19 @@ export default function HomePage() {
             <Link href="/projects" className={styles.primaryLink}>
               View Projects <VscArrowRight />
             </Link>
-            <a href="/cv.pdf" download="Hilal_Yilmaz_CV.pdf" className={styles.primaryLink}>
-              Download CV <VscCloudDownload />
+            <a
+              href="/CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf"
+              download="CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf"
+              className={styles.primaryLink}
+            >
+              TR CV <VscCloudDownload />
+            </a>
+            <a
+              href="/CV_Hilal-Yılmaz_IndustrialEngineer.pdf"
+              download="CV_Hilal-Yılmaz_IndustrialEngineer.pdf"
+              className={styles.primaryLink}
+            >
+              EN CV <VscCloudDownload />
             </a>
           </div>
         </div>
