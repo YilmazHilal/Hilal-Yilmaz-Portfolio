@@ -9,15 +9,6 @@ export default function HomePage() {
   const { t, language } = useLanguage();
   const [activeLineIndex, setActiveLineIndex] = useState(0);
 
-  const cvFile =
-    language === 'tr'
-      ? '/CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf'
-      : '/CV_Hilal-Yılmaz_IndustrialEngineer.pdf';
-
-  const cvDownloadName =
-    language === 'tr'
-      ? 'CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf'
-      : 'CV_Hilal-Yılmaz_IndustrialEngineer.pdf';
 
   const codeLines = [
     { code: 'const HomePage = () => {', type: 'function' },
@@ -114,8 +105,19 @@ export default function HomePage() {
             <Link href="/projects" className={styles.primaryLink}>
               View Projects <VscArrowRight />
             </Link>
-            <a href={cvFile} download={cvDownloadName} className={styles.primaryLink}>
-              Download CV <VscCloudDownload />
+            <a
+              href="/CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf"
+              download="CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf"
+              className={styles.primaryLink}
+            >
+              TR CV <VscCloudDownload />
+            </a>
+            <a
+              href="/CV_Hilal-Yılmaz_IndustrialEngineer.pdf"
+              download="CV_Hilal-Yılmaz_IndustrialEngineer.pdf"
+              className={styles.primaryLink}
+            >
+              EN CV <VscCloudDownload />
             </a>
           </div>
         </div>
