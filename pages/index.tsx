@@ -6,7 +6,7 @@ import styles from '@/styles/HomePage.module.css';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function HomePage() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [activeLineIndex, setActiveLineIndex] = useState(0);
 
 
