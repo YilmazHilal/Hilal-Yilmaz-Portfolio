@@ -21,6 +21,7 @@ const nextConfig: NextConfig = {
       { hostname: 'media2.dev.to', protocol: 'https' },
     ],
   },
+  output: 'standalone',
 };
 
 export default nextConfig;
