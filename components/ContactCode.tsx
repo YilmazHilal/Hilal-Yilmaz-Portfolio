@@ -3,13 +3,13 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'hilalyilmaz.me',
-    href: 'https://hilalyilmaz.me',
+    link: 'hilalyilmaz.net',
+    href: 'https://hilalyilmaz.net',
   },
   {
     social: 'email',
-    link: 'hilal.yilmaz@outlook.com',
-    href: 'mailto:hilal.yilmaz@outlook.com',
+    link: 'hilalyilmaz.eng@gmail.com',
+    href: 'mailto:hilalyilmaz.eng@gmail.com',
   },
   {
     social: 'github',
@@ -18,8 +18,8 @@ const contactItems = [
   },
   {
     social: 'linkedin',
-    link: 'hilalyilmaz',
-    href: 'https://www.linkedin.com/in/hilalyilmaz/',
+    link: 'hilalyilmaz23',
+    href: 'https://www.linkedin.com/in/hilalyilmaz23/',
   },
   {
     social: 'twitter',
@@ -34,7 +34,7 @@ const contactItems = [
   {
     social: 'medium',
     link: 'hilalyilmaz',
-    href: 'https://medium.com/@hilalyilmaz',
+    href: 'https://medium.com/@Hilal_Yilmaz',
   },
   {
     social: 'peerlist',
