@@ -1,0 +1,149 @@
+.container {
+  max-width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  color: var(--text-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImageContainer {
+  margin-bottom: 2rem;
+}
+
+.profileImage {
+  border-radius: 50%;
+  border: 4px solid var(--accent-color);
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profileImage:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.4);
+}
+
+.profilePlaceholder {
+  border-radius: 50%;
+  border: 4px solid var(--accent-color);
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--accent-color), rgba(var(--accent-color-rgb), 0.7));
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profilePlaceholder:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.4);
+}
+
+.initials {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+  letter-spacing: -0.03em;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+}
+
+.aboutContent {
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.sectionTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
+.paragraph {
+  margin-bottom: 1.25rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.highlight {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .profileImage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profilePlaceholder {
+    width: 120px;
+    height: 120px;
+  }
+
+  .initials {
+    font-size: 2.5rem;
+  }
+
+  .profileImageContainer {
+    margin-bottom: 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .paragraph {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+}
