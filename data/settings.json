@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "name": "Hilal Yılmaz",
+    "aboutSubtitle": "Industrial Engineer",
+    "cvUrl": "/CV_Hilal-Yılmaz_IndustrialEngineer.pdf",
+    "cvUrlEn": "/CV_Hilal-Yılmaz_IndustrialEngineer.pdf",
+    "cvUrlTr": "/CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf"
+  },
+  "content": {
+    "en": {
+      "home": {
+        "role": "Industrial Engineer",
+        "bio": "I create smart, responsive web applications and AI integrations. With a strong background in engineering and technology, I turn ideas into scalable digital products that are fast, elegant, and user-focused."
+      },
+      "about": {
+        "profile_title": "Profile",
+        "profile_text": "Hey! I'm Hilal Yılmaz, an Industrial Engineer from Türkiye. With a passion for optimizing processes and improving efficiency, I focus on creating data-driven solutions that make operations smoother and more productive. <br/><br/> My expertise lies in process optimization, supply chain management, and production planning. I enjoy analyzing complex systems and finding innovative ways to enhance workflow efficiency and reduce waste.",
+        "experience_title": "Experience",
+        "experience_text": "Throughout my academic journey and internships, I've worked on various projects involving production optimization, quality management, and lean manufacturing principles. I'm passionate about continuous improvement and applying engineering methodologies to solve real-world problems. <br/><br/> I thrive in collaborative environments where analytical thinking meets practical problem-solving. My goal is to contribute to sustainable and efficient industrial operations.",
+        "philosophy_title": "Skills & Focus Areas",
+        "philosophy_text": "I specialize in process analysis, operations research, and data analytics. My approach combines engineering principles with modern tools to deliver measurable improvements in productivity and quality.",
+        "beyond_title": "Beyond Engineering",
+        "beyond_text": "When I'm not working on optimization projects, I enjoy exploring new technologies, reading about industry trends, and spending time in nature. I believe in balancing technical expertise with creativity and continuous learning."
+      }
+    },
+    "tr": {
+      "home": {
+        "role": "Endüstri Mühendisi",
+        "bio": "Akıllı, duyarlı web uygulamaları ve yapay zeka entegrasyonları oluşturuyorum. Mühendislik ve teknoloji alanındaki güçlü geçmişimle, fikirleri hızlı, şık ve kullanıcı odaklı ölçeklenebilir dijital ürünlere dönüştürüyorum."
+      },
+      "about": {
+        "profile_title": "Profil",
+        "profile_text": "Merhaba! Ben Hilal Yılmaz, Türkiye'den bir Endüstri Mühendisiyim. Süreçleri optimize etme ve verimliliği artırma tutkusuyla, operasyonları daha sorunsuz ve üretken hale getiren veri odaklı çözümler üretmeye odaklanıyorum. <br/><br/> Uzmanlığım süreç optimizasyonu, tedarik zinciri yönetimi ve üretim planlaması üzerine. Karmaşık sistemleri analiz etmekten ve iş akışı verimliliğini artırıp israfı azaltacak yenilikçi yollar bulmaktan keyif alıyorum.",
+        "experience_title": "Deneyim",
+        "experience_text": "Akademik yolculuğum ve stajlarım boyunca üretim optimizasyonu, kalite yönetimi ve yalın üretim prensipleri içeren çeşitli projelerde çalıştım. Sürekli iyileştirmeye ve gerçek dünya problemlerini çözmek için mühendislik metodolojilerini uygulamaya tutkuluyum. <br/><br/> Analitik düşünmenin pratik problem çözme ile buluştuğu işbirlikçi ortamlarda başarılı olurum. Hedefim, sürdürülebilir ve verimli endüstriyel operasyonlara katkıda bulunmaktır.",
+        "philosophy_title": "Yetenekler & Odak Alanları",
+        "philosophy_text": "Süreç analizi, yöneylem araştırması ve veri analitiği konularında uzmanlaşıyorum. Yaklaşımım, üretkenlik ve kalitede ölçülebilir iyileştirmeler sağlamak için mühendislik prensiplerini modern araçlarla birleştirir.",
+        "beyond_title": "Mühendisliğin Ötesinde",
+        "beyond_text": "Optimizasyon projeleri üzerinde çalışmadığım zamanlarda, yeni teknolojileri keşfetmekten, endüstri trendlerini okumaktan ve doğada vakit geçirmekten keyif alıyorum. Teknik uzmanlığı yaratıcılık ve sürekli öğrenme ile dengelemeye inanıyorum."
+      }
+    }
+  },
+  "socials": [
+    { "social": "website", "link": "hilalyilmaz.net", "href": "https://hilalyilmaz.net" },
+    { "social": "email", "link": "hilalyilmaz.eng@gmail.com", "href": "mailto:hilalyilmaz.eng@gmail.com" },
+    { "social": "github", "link": "YilmazHilal", "href": "https://github.com/YilmazHilal" },
+    { "social": "linkedin", "link": "hilalyilmaz23", "href": "https://www.linkedin.com/in/hilalyilmaz23/" },
+    { "social": "twitter", "link": "@aksiyonalindi", "href": "https://x.com/aksiyonalindi" },
+    { "social": "instagram", "link": "hilal_yilmaz23", "href": "https://www.instagram.com/hilal_yilmaz23/" },
+    { "social": "medium", "link": "hilalyilmaz", "href": "https://medium.com/@Hilal_Yilmaz" },
+    { "social": "peerlist", "link": "hilalyilmaz", "href": "https://peerlist.io/hilalyilmaz" }
+  ]
+}
