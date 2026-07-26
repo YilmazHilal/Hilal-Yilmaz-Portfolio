@@ -2,7 +2,7 @@
   "identity": {
     "name": "Hilal Yılmaz",
     "aboutSubtitle": "Industrial Engineer",
-    "profileImage": "/profile.png",
+    "profileImage": "/uploads/1785059815373-chatgpt-image-13-tem-2026-23-34-03.png",
     "cvUrl": "/CV_Hilal-Yılmaz_IndustrialEngineer.pdf",
     "cvUrlEn": "/CV_Hilal-Yılmaz_IndustrialEngineer.pdf",
     "cvUrlTr": "/CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf"
@@ -42,13 +42,45 @@
     }
   },
   "socials": [
-    { "social": "website", "link": "hilalyilmaz.net", "href": "https://hilalyilmaz.net" },
-    { "social": "email", "link": "hilalyilmaz.eng@gmail.com", "href": "mailto:hilalyilmaz.eng@gmail.com" },
-    { "social": "github", "link": "YilmazHilal", "href": "https://github.com/YilmazHilal" },
-    { "social": "linkedin", "link": "hilalyilmaz23", "href": "https://www.linkedin.com/in/hilalyilmaz23/" },
-    { "social": "twitter", "link": "@aksiyonalindi", "href": "https://x.com/aksiyonalindi" },
-    { "social": "instagram", "link": "hilal_yilmaz23", "href": "https://www.instagram.com/hilal_yilmaz23/" },
-    { "social": "medium", "link": "hilalyilmaz", "href": "https://medium.com/@Hilal_Yilmaz" },
-    { "social": "peerlist", "link": "hilalyilmaz", "href": "https://peerlist.io/hilalyilmaz" }
+    {
+      "social": "website",
+      "link": "hilalyilmaz.net",
+      "href": "https://hilalyilmaz.net"
+    },
+    {
+      "social": "email",
+      "link": "hilalyilmaz.eng@gmail.com",
+      "href": "mailto:hilalyilmaz.eng@gmail.com"
+    },
+    {
+      "social": "github",
+      "link": "YilmazHilal",
+      "href": "https://github.com/YilmazHilal"
+    },
+    {
+      "social": "linkedin",
+      "link": "hilalyilmaz23",
+      "href": "https://www.linkedin.com/in/hilalyilmaz23/"
+    },
+    {
+      "social": "twitter",
+      "link": "@aksiyonalindi",
+      "href": "https://x.com/aksiyonalindi"
+    },
+    {
+      "social": "instagram",
+      "link": "hilal_yilmaz23",
+      "href": "https://www.instagram.com/hilal_yilmaz23/"
+    },
+    {
+      "social": "medium",
+      "link": "hilalyilmaz",
+      "href": "https://medium.com/@Hilal_Yilmaz"
+    },
+    {
+      "social": "peerlist",
+      "link": "hilalyilmaz",
+      "href": "https://peerlist.io/hilalyilmaz"
+    }
   ]
 }
