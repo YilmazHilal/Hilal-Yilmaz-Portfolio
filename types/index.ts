@@ -67,6 +67,7 @@ export interface SocialLink {
 export interface Identity {
   name: string;
   aboutSubtitle: string;
+  profileImage?: string; // Optional profile photo; falls back to /profile.png
   cvUrl: string;
   cvUrlEn?: string;
   cvUrlTr?: string;

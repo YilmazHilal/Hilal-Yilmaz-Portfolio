@@ -308,7 +308,14 @@ function emptyLocale(): LocaleContent {
 
 function emptySettings(): SiteSettings {
   return {
-    identity: { name: '', aboutSubtitle: '', cvUrl: '', cvUrlEn: '', cvUrlTr: '' },
+    identity: {
+      name: '',
+      aboutSubtitle: '',
+      profileImage: '',
+      cvUrl: '',
+      cvUrlEn: '',
+      cvUrlTr: '',
+    },
     content: { en: emptyLocale(), tr: emptyLocale() },
     socials: [],
   };
@@ -631,6 +638,7 @@ function SettingsEditor({ active }: { active: boolean }) {
                 identity: {
                   name: '',
                   aboutSubtitle: '',
+                  profileImage: '',
                   cvUrl: '',
                   cvUrlEn: '',
                   cvUrlTr: '',
@@ -647,7 +655,7 @@ function SettingsEditor({ active }: { active: boolean }) {
   }, []);
 
   function updateIdentity(
-    field: 'name' | 'aboutSubtitle' | 'cvUrl' | 'cvUrlEn' | 'cvUrlTr',
+    field: 'name' | 'aboutSubtitle' | 'profileImage' | 'cvUrl' | 'cvUrlEn' | 'cvUrlTr',
     value: string
   ) {
     setSettings((prev) =>
@@ -772,6 +780,12 @@ function SettingsEditor({ active }: { active: boolean }) {
               label="About subtitle"
               value={settings.identity.aboutSubtitle}
               onChange={(v) => updateIdentity('aboutSubtitle', v)}
+            />
+            <UploadField
+              label="Profile photo (shown on About & link previews)"
+              value={settings.identity.profileImage ?? ''}
+              onChange={(v) => updateIdentity('profileImage', v)}
+              placeholder="/profile.png"
             />
             <UploadField
               label="Resume / CV — English (PDF)"

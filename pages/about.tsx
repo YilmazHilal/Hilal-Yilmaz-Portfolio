@@ -6,13 +6,14 @@ import settings from '@/data/settings.json';
 const AboutPage = () => {
   const { t } = useLanguage();
   const { name, aboutSubtitle } = settings.identity;
+  const profileImage = settings.identity.profileImage || '/profile.png';
 
   return (
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.profileImageContainer}>
           <Image
-            src="/profile.png"
+            src={profileImage}
             className={styles.profileImage}
             alt={name}
             width={250}

@@ -3,6 +3,7 @@ import GitHubCalendar from 'react-github-calendar';
 import { VscRepo, VscPerson } from 'react-icons/vsc';
 
 import RepoCard from '@/components/RepoCard';
+import settings from '@/data/settings.json';
 import { Repo, User } from '@/types';
 
 import styles from '@/styles/GithubPage.module.css';
@@ -84,7 +85,7 @@ export async function getStaticProps() {
 
   const fallbackUser: User = {
     login: username || 'github',
-    avatar_url: '/profile.png',
+    avatar_url: settings.identity.profileImage || '/profile.png',
     public_repos: 0,
     followers: 0,
   };

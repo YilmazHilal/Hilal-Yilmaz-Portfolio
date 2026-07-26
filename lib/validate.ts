@@ -138,6 +138,7 @@ export function sanitizeSettings(input: unknown): SiteSettings | null {
   const identity = {
     name: asString(identityIn.name),
     aboutSubtitle: asString(identityIn.aboutSubtitle),
+    profileImage: safeUrl(asString(identityIn.profileImage)),
     cvUrl: cvUrlEn || cvUrlTr || safeUrl(asString(identityIn.cvUrl)),
     cvUrlEn,
     cvUrlTr,
