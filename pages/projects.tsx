@@ -24,6 +24,9 @@ const ProjectsPage = () => {
 export async function getStaticProps() {
   return {
     props: { title: 'Projects' },
+    // Without this Next.js emits s-maxage=1y and the CDN keeps serving the
+    // pre-deploy page, so admin edits stay invisible until it is purged.
+    revalidate: 60,
   };
 }
 
