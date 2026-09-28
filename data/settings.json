@@ -1,43 +1,43 @@
 {
   "identity": {
     "name": "Hilal Yılmaz",
-    "aboutSubtitle": "Industrial Engineer",
+    "aboutSubtitle": "Industrial & Management Engineer | Digital Twin & Operations Digitalisation",
     "profileImage": "/uploads/1785060304836-chatgpt-image-22-tem-2026-14-45-31.png",
-    "cvUrl": "/CV_Hilal-Yılmaz_IndustrialEngineer.pdf",
-    "cvUrlEn": "/CV_Hilal-Yılmaz_IndustrialEngineer.pdf",
-    "cvUrlTr": "/CV_Hilal-Yılmaz_EndüstriMühendisliği.pdf"
+    "cvUrl": "/uploads/1790627830363-hilal-yilmaz-cv-2026.pdf",
+    "cvUrlEn": "/uploads/1790627830363-hilal-yilmaz-cv-2026.pdf",
+    "cvUrlTr": "/uploads/1790627842395-hilal-yilmaz-ozgecmis-2026-tr.pdf"
   },
   "content": {
     "en": {
       "home": {
-        "role": "Industrial Engineer",
-        "bio": "I create smart, responsive web applications and AI integrations. With a strong background in engineering and technology, I turn ideas into scalable digital products that are fast, elegant, and user-focused."
+        "role": "Industrial & Management Engineer | Digital Twin & Operations Digitalisation",
+        "bio": "I'm an industrial and management engineer who turns operational data into decisions. At Bosch and Martur Fompak I improved machining lines, built KPI systems in Power BI and modelled capacity for four production locations. In August 2026 I presented my KPI to digital twin framework as an invited speaker at DigiTwin 2026, University of Oxford."
       },
       "about": {
         "profile_title": "Profile",
-        "profile_text": "Hey! I'm Hilal Yılmaz, an Industrial Engineer from Türkiye. With a passion for optimizing processes and improving efficiency, I focus on creating data-driven solutions that make operations smoother and more productive. <br/><br/> My expertise lies in process optimization, supply chain management, and production planning. I enjoy analyzing complex systems and finding innovative ways to enhance workflow efficiency and reduce waste.",
+        "profile_text": "I'm Hilal Yılmaz, an industrial and management engineer based in Bursa, Türkiye. My work sits where operations, data and decision making meet: I look at how a system really performs, measure it properly and then make it better. I learned this on the automotive shop floor, but the questions are the same in any operation that runs on capacity, flow and people. That is what drew me to digital twins, virtual models that stay connected to the real system and help people decide with data instead of instinct. In August 2026 the University of Oxford invited me to present my framework for translating factory KPI systems into digital twin models at DigiTwin 2026, where I showed that the same logic holds outside manufacturing. That talk made it clear to me that this is the field I want to keep growing in, and a PhD on KPI driven digital twins, ideally together with industry, is one of the paths I'm working towards.",
         "experience_title": "Experience",
-        "experience_text": "Throughout my academic journey and internships, I've worked on various projects involving production optimization, quality management, and lean manufacturing principles. I'm passionate about continuous improvement and applying engineering methodologies to solve real-world problems. <br/><br/> I thrive in collaborative environments where analytical thinking meets practical problem-solving. My goal is to contribute to sustainable and efficient industrial operations.",
+        "experience_text": "At Bosch Powertrain Solutions I worked as a production and planning engineer on CNC machining lines for valve and armature parts. By optimising the machining processes we raised availability by 7% and shortened cycle time by 8%, and root cause analysis with FMEA and SPC cut the scrap rate by 10%. At Martur Fompak International, a Tier 1 automotive interior supplier, I first brought more than six new lines to serial production for Renault, Volkswagen, Skoda, Volvo and Tofaş programmes with no launch delays. I then moved into methods improvement and manufacturing systems, where I merged separate Excel reports and conflicting KPI definitions from production, quality and logistics into one Power BI data model. Monthly management reporting for four plants, including Romania, went from about two weeks to three days, and the dashboard became the reference in plant and holding level meetings. I also built Excel scenario models that answered plant managers' capacity, overtime and headcount questions. Since 2024 I have been co-founder of SoleLuna Tech, leading requirements and process analysis for custom business management software.",
         "philosophy_title": "Skills & Focus Areas",
-        "philosophy_text": "I specialize in process analysis, operations research, and data analytics. My approach combines engineering principles with modern tools to deliver measurable improvements in productivity and quality.",
+        "philosophy_text": "Production and capacity planning, workforce and scenario modelling, OEE and bottleneck analysis, KPI systems and data modelling in Power BI and SAP, lean manufacturing and quality tools (standard work, MTM UAS, PFMEA, SPC, root cause analysis), requirements and process analysis, and digital twin concepts for Industry 4.0. I also have hands on experience with process simulation in DELMIA and CATIA from a research project at the University of Salerno, and I want to take it further. My approach is simple: understand the process first, measure it honestly, then build the digital tool that keeps the improvement visible.",
         "beyond_title": "Beyond Engineering",
-        "beyond_text": "When I'm not working on optimization projects, I enjoy exploring new technologies, reading about industry trends, and spending time in nature. I believe in balancing technical expertise with creativity and continuous learning."
+        "beyond_text": "I believe the way I grow as a person shows up in the way I work. The six month Young Executive Academy (formerly YGA) leadership programme and the McKinsey Forward Programme taught me structured problem solving and how to communicate for impact, and I start McKinsey.org Forward Core Skills in October 2026. I'm AI Fluency certified by Anthropic Academy and currently completing Claude Code in Action and the Microsoft Power BI Analyst Professional Certificate. Studying in Italy on a full scholarship taught me to adapt quickly to a new language and culture, and today I keep learning German towards Goethe B2. Running a software partnership and a small handmade design studio next to my engineering work has taught me to plan my time carefully, stay patient when things move slowly and keep going when a plan changes. Those habits matter to me as much as any certificate."
       }
     },
     "tr": {
       "home": {
-        "role": "Endüstri Mühendisi",
-        "bio": "Akıllı, duyarlı web uygulamaları ve yapay zeka entegrasyonları oluşturuyorum. Mühendislik ve teknoloji alanındaki güçlü geçmişimle, fikirleri hızlı, şık ve kullanıcı odaklı ölçeklenebilir dijital ürünlere dönüştürüyorum."
+        "role": "Endüstri ve Yönetim Mühendisi | Dijital İkiz ve Operasyon Dijitalleştirme",
+        "bio": "Operasyonel veriyi karara çeviren bir endüstri ve yönetim mühendisiyim. Bosch ve Martur Fompak'ta işleme hatlarını iyileştirdim, Power BI ile KPI sistemleri kurdum ve dört üretim lokasyonu için kapasite modelledim. Ağustos 2026'da KPI'dan dijital ikize çeviri çerçevemi Oxford Üniversitesi'ndeki DigiTwin 2026'da davetli konuşmacı olarak sundum."
       },
       "about": {
         "profile_title": "Profil",
-        "profile_text": "Merhaba! Ben Hilal Yılmaz, Türkiye'den bir Endüstri Mühendisiyim. Süreçleri optimize etme ve verimliliği artırma tutkusuyla, operasyonları daha sorunsuz ve üretken hale getiren veri odaklı çözümler üretmeye odaklanıyorum. <br/><br/> Uzmanlığım süreç optimizasyonu, tedarik zinciri yönetimi ve üretim planlaması üzerine. Karmaşık sistemleri analiz etmekten ve iş akışı verimliliğini artırıp israfı azaltacak yenilikçi yollar bulmaktan keyif alıyorum.",
+        "profile_text": "Merhaba, ben Hilal Yılmaz. Bursa'da yaşayan bir endüstri ve yönetim mühendisiyim. Çalışmalarım operasyon, veri ve karar almanın kesiştiği yerde: bir sistemin gerçekte nasıl çalıştığına bakıyor, onu doğru ölçüyor ve sonra iyileştiriyorum. Bunu otomotiv üretim sahasında öğrendim, ama kapasite, akış ve insan üzerine kurulu her operasyonda sorular aynı. Beni dijital ikize çeken de bu oldu: gerçek sistemle bağlantısını koruyan ve kararların sezgiyle değil veriyle alınmasına yardım eden sanal modeller. Ağustos 2026'da Oxford Üniversitesi, fabrika KPI sistemlerini dijital ikiz modellerine çeviren çerçevemi DigiTwin 2026'da sunmam için beni davet etti; orada aynı mantığın üretimin dışında da işlediğini gösterdim. Bu sunum, bu alanda büyümeye devam etmek istediğimi netleştirdi. Endüstriyle birlikte yürütülen, KPI odaklı dijital ikizler üzerine bir doktora da hedeflediğim yollardan biri.",
         "experience_title": "Deneyim",
-        "experience_text": "Akademik yolculuğum ve stajlarım boyunca üretim optimizasyonu, kalite yönetimi ve yalın üretim prensipleri içeren çeşitli projelerde çalıştım. Sürekli iyileştirmeye ve gerçek dünya problemlerini çözmek için mühendislik metodolojilerini uygulamaya tutkuluyum. <br/><br/> Analitik düşünmenin pratik problem çözme ile buluştuğu işbirlikçi ortamlarda başarılı olurum. Hedefim, sürdürülebilir ve verimli endüstriyel operasyonlara katkıda bulunmaktır.",
+        "experience_text": "Bosch Powertrain Solutions'ta üretim ve planlama mühendisi olarak valf ve armatür parçalarının CNC işleme hatlarında çalıştım. İşleme süreçlerini optimize ederek kullanılabilirliği %7 artırdık ve çevrim süresini %8 kısalttık; FMEA ve SPC ile yürüttüğüm kök neden analizleri hurda oranını %10 düşürdü. Otomotiv iç aksam tedarikçisi Martur Fompak International'da önce Renault, Volkswagen, Skoda, Volvo ve Tofaş projeleri için altıdan fazla yeni hattı gecikmesiz seri üretime hazırladım. Ardından metot iyileştirme ve üretim sistemleri geliştirme tarafına geçtim; üretim, kalite ve lojistiğin ayrı Excel raporlarını ve birbirinden farklı KPI tanımlarını tek bir Power BI veri modelinde birleştirdim. Romanya dahil dört tesisin aylık yönetim raporlaması yaklaşık iki haftadan üç güne indi ve dashboard tesis ve holding düzeyindeki toplantıların referansı oldu. Tesis müdürlerinin kapasite, fazla mesai ve kadro sorularını yanıtlayan Excel senaryo modellerini de kurdum. 2024'ten bu yana SoleLuna Tech'in kurucu ortağıyım ve özel iş yönetim yazılımlarında gereksinim ve süreç analizini yürütüyorum.",
         "philosophy_title": "Yetenekler & Odak Alanları",
-        "philosophy_text": "Süreç analizi, yöneylem araştırması ve veri analitiği konularında uzmanlaşıyorum. Yaklaşımım, üretkenlik ve kalitede ölçülebilir iyileştirmeler sağlamak için mühendislik prensiplerini modern araçlarla birleştirir.",
+        "philosophy_text": "Üretim ve kapasite planlama, işgücü ve senaryo modelleme, OEE ve darboğaz analizi, Power BI ve SAP'de KPI sistemleri ve veri modelleme, yalın üretim ve kalite araçları (standart iş, MTM UAS, PFMEA, SPC, kök neden analizi), gereksinim ve süreç analizi, Endüstri 4.0 kapsamında dijital ikiz kavramları. Süreç simülasyonunda Salerno Üniversitesi'ndeki bir araştırma projesinden gelen DELMIA ve CATIA deneyimim var ve bunu ilerletmek istiyorum. Yaklaşımım basit: önce süreci anlamak, onu dürüstçe ölçmek, sonra iyileşmeyi görünür tutan dijital aracı kurmak.",
         "beyond_title": "Mühendisliğin Ötesinde",
-        "beyond_text": "Optimizasyon projeleri üzerinde çalışmadığım zamanlarda, yeni teknolojileri keşfetmekten, endüstri trendlerini okumaktan ve doğada vakit geçirmekten keyif alıyorum. Teknik uzmanlığı yaratıcılık ve sürekli öğrenme ile dengelemeye inanıyorum."
+        "beyond_text": "Kişisel olarak nasıl geliştiğimin iş yapış biçimime de yansıdığını düşünüyorum. Altı aylık Young Executive Academy (eski adıyla YGA) liderlik programı ve McKinsey Forward Programı bana yapılandırılmış problem çözmeyi ve etkili iletişimi öğretti; Ekim 2026'da McKinsey.org Forward Core Skills seviyesine başlıyorum. Anthropic Academy'den AI Fluency sertifikam var, şu anda Claude Code in Action eğitimini ve Microsoft Power BI Analyst Professional Certificate programını tamamlıyorum. İtalya'da tam burslu yüksek lisans yapmak, yeni bir dile ve kültüre hızla uyum sağlamayı öğretti; bugün de Goethe B2 hedefiyle Almanca çalışıyorum. Mühendislik işimin yanında bir yazılım ortaklığı ve küçük bir el yapımı tasarım atölyesi yürütmek; zamanımı dikkatle planlamayı, işler yavaş ilerlediğinde sabırlı kalmayı ve plan değiştiğinde yola devam etmeyi öğretti. Bu alışkanlıklar benim için en az bir sertifika kadar değerli."
       }
     }
   },
@@ -59,8 +59,8 @@
     },
     {
       "social": "linkedin",
-      "link": "hilalyilmaz23",
-      "href": "https://www.linkedin.com/in/hilalyilmaz23/"
+      "link": "hilalyilmaz-",
+      "href": "https://www.linkedin.com/in/hilalyilmaz-/"
     },
     {
       "social": "twitter",
