@@ -3,16 +3,16 @@
     "title": "Nora Atelier",
     "description": "An e-commerce experience for Nora Atelier, a handmade natural soy candle brand.",
     "logo": "/logos/nora-atelier.png",
-    "image": "/projects/nora-atelier.png",
     "link": "https://noraatelier.com",
-    "slug": "nora-atelier"
+    "slug": "nora-atelier",
+    "image": "/projects/nora-atelier.png"
   },
   {
     "title": "VSCode Portfolio",
     "description": "A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.",
     "logo": "/logos/vsc.svg",
-    "image": "/projects/vscode-portfolio.png",
     "link": "https://github.com/YilmazHilal/Hilal-Yilmaz-Portfolio",
-    "slug": "vscode-portfolio"
+    "slug": "vscode-portfolio",
+    "image": "/projects/vscode-portfolio.png"
   }
 ]
